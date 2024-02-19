@@ -1,0 +1,35 @@
+.post-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+}
+
+.card-footer {
+    padding: 5px;
+    text-align: center;
+}
+
+.card-header,.card-body {
+    padding: 10px;
+}
+
+.card-footer .btn {
+    margin: 5px;
+}
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.fixed-bottom .btn {
+    margin: 0 10px;
+}

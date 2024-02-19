@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import {  Observable } from 'rxjs';
+import { Observable } from 'rxjs';
 import { Post } from './post';
   
 @Injectable({
@@ -10,7 +10,6 @@ export class PostService {
   private apiURL = "https://jsonplaceholder.typicode.com/";
     
     // Http Header Options
-    
   httpOptions = {
     headers: new HttpHeaders({
       'Content-Type': 'application/json'
@@ -18,7 +17,6 @@ export class PostService {
   }
    
     //Constructor
-
   constructor(private httpClient: HttpClient) { }
  
     //GET
