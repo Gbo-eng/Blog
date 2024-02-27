@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { PostService } from '../post.service';
 import { Router } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-creacion',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './creacion.component.html',
   styles: ``
 })
